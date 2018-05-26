@@ -1,0 +1,89 @@
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:itchat:Login successfully as 静静
+INFO:wxpy.api.bot:<Bot: 静静>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 静静: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 静静>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000021A1F4099D8>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 101, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 77, in auto_save_file
+    saved_file.write(json.dumps(message_json))
+  File "C:\ProgramData\Anaconda3\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\ProgramData\Anaconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\ProgramData\Anaconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\ProgramData\Anaconda3\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 巴呆>:
+图片已收到
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000021A1F4099D8>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 99, in auto_reply
+    auto_reply_messages(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 65, in auto_reply_messages
+    try_reply(msg.sender, reply_message)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 49, in try_reply
+    auto_reply_log(msg, reply_messages)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 83, in auto_reply_log
+    log_message = now + '  ' + str(msg) + '  reply_message:' + reply_message + '\n'
+TypeError: must be str, not list
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 巴呆>:
+语音已收到
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000021A1F4099D8>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 99, in auto_reply
+    auto_reply_messages(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 65, in auto_reply_messages
+    try_reply(msg.sender, reply_message)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 49, in try_reply
+    auto_reply_log(msg, reply_messages)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 83, in auto_reply_log
+    log_message = now + '  ' + str(msg) + '  reply_message:' + reply_message + '\n'
+TypeError: must be str, not list
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 巴呆>:
+语音已收到
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000021A1F4099D8>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 99, in auto_reply
+    auto_reply_messages(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 65, in auto_reply_messages
+    try_reply(msg.sender, reply_message)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 49, in try_reply
+    auto_reply_log(msg, reply_messages)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 83, in auto_reply_log
+    log_message = now + '  ' + str(msg) + '  reply_message:' + reply_message + '\n'
+TypeError: must be str, not list
+INFO:wxpy.api.bot:<Bot: 静静>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 静静: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 静静>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 巴呆>:
+语音已收到
+INFO:root:2018-05-27 01:40:50  巴呆 : (Recording)  reply_message:语音已收到
+
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 巴呆>:
+图片已收到
+INFO:root:2018-05-27 01:42:48  巴呆 : (Picture)  reply_message:图片已收到
+
+INFO:wxpy.api.chats.group:updating <Group: 中国医学科学院肿瘤医院深圳医院> (members_details=False)
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001F703403B70>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 99, in auto_reply
+    auto_reply_messages(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 39, in auto_reply_messages
+    auto_reply_config = config[config_key]
+KeyError: 'auto_reply_note'

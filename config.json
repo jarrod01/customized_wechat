@@ -1,10 +1,19 @@
 {
-  "auto_reply_type": ["TEXT", "RECORDING", "PICTURE", "ATTACHMENT", "VIDEO", "SHARING", "FRIENDS",
-    "MAP", "CARD", "NOTE", "SYSTEM"],
-  "auto_save_type": ["TEXT", "RECORDING", "PICTURE", "ATTACHMENT", "VIDEO", "SHARING"],
-  "auto_accept_keywords": ["test"],
-  "auto_reply_keywords": ["test"],
-  "auto_reply_pic_keywords": ["test"],
-  "auto_reply_recording_keywords": ["test"],
-  "notify_friends": ["Jarrod01"]
+  "all_types": ["Text", "Recording", "Picture", "Attachment", "Video", "Sharing", "Friends",
+    "Map", "Card", "Note", "System"],
+  "auto_reply_type": ["Text", "Recording", "Picture", "Attachment", "Video", "Friends", "Card"],
+  "auto_save_type": ["Text", "Recording", "Picture", "Attachment", "Video"],
+  "auto_reply_friends": {"test": {"match_type": 1, "messages": ["tested"]}},
+  "auto_reply_text": {"test1": {"match_type": 1, "messages": ["tested1"]},
+    "test0": {"match_type": 0, "messages": ["tested0"]}, "我通过了你的朋友验证请求": {"match_type": 1, "messages": ["text1"]}},
+  "auto_reply_picture": {"": {"match_type": 1, "messages": ["图片已收到"]},
+    "朋友圈": {"match_type": 1, "messages": ["OCR识别到了"]}},
+  "auto_reply_recording": {"": {"match_type": 1, "messages": ["语音已收到"]},
+    "语音测试": {"match_type": 1, "messages": ["语音识别了"]}},
+  "auto_reply_card": {"": {"match_type": 1, "messages": ["加好友请求发送成功"]}},
+  "auto_reply_attachment": {"": {"match_type": 1, "messages": ["文件已收到"]}},
+  "auto_reply_video":{"": {"match_type": 1, "messages": ["视频已收到"]}},
+  "auto_reply_sharing": {"": {"match_type": 1, "messages": ["谢谢分享"]}},
+  "notify_friends": ["Jarrod01"],
+  "verify_content": "我是小龙，想加你好友聊聊天"
 }

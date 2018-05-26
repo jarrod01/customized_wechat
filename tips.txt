@@ -1,0 +1,8 @@
+"auto_reply_type": 在列表里的消息类型会被自动处理，具体规则见下
+"auto_save_type": 在列表里的类型会被自动保存，具体规则见下
+"auto_accept": 0--不自动接受好友申请，1--无条件自动接受，2--根据下方条件自动接受
+"auto_accept_text": 接受好友申请的关键词
+"auto_reply_keywords": 自动回复的关键词以及回复的内容,key值为关键词(空字符串代表所有的都回复)，match_type:0--完全匹配，1--不完全匹配，包含即可。，messages为回复的消息列表
+"auto_reply_picture": 自动回复的关键词以及回复的内容
+"auto_reply_recording": 自动回复的关键词以及回复的内容
+"notify_friends": 有问题需要通知的好友
