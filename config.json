@@ -1,0 +1,10 @@
+{
+  "auto_reply_type": ["TEXT", "RECORDING", "PICTURE", "ATTACHMENT", "VIDEO", "SHARING", "FRIENDS",
+    "MAP", "CARD", "NOTE", "SYSTEM"],
+  "auto_save_type": ["TEXT", "RECORDING", "PICTURE", "ATTACHMENT", "VIDEO", "SHARING"],
+  "auto_accept_keywords": ["test"],
+  "auto_reply_keywords": ["test"],
+  "auto_reply_pic_keywords": ["test"],
+  "auto_reply_recording_keywords": ["test"],
+  "notify_friends": ["Jarrod01"]
+}
