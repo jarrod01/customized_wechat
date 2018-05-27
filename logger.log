@@ -87,3 +87,260 @@ Traceback (most recent call last):
   File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 39, in auto_reply_messages
     auto_reply_config = config[config_key]
 KeyError: 'auto_reply_note'
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:itchat:Login successfully as 小龙龙
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+图片已收到
+INFO:root:2018-05-27 23:20:52  小龙 : (Picture)  reply_message:图片已收到
+
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000029913F441E0>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:\jarrod\PycharmPorjects\wechat\wechat.py", line 139, in auto_reply
+    auto_save_file(msg)
+  File "D:\jarrod\PycharmPorjects\wechat\wechat.py", line 106, in auto_save_file
+    values (str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name))''')
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 888 and this is thread id 11540
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+图片已收到
+INFO:root:2018-05-27 23:30:22  小龙 : (Picture)  reply_message:图片已收到
+
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001C2BD4F3950>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 139, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 106, in auto_save_file
+    values (str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name))''')
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 13464 and this is thread id 12580
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+OCR识别到了
+INFO:root:2018-05-27 23:35:05  小龙 : (Picture)  reply_message:OCR识别到了
+
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x00000118E1DA8D08>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 140, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 106, in auto_save_file
+    msg.get_file(save_path=os.path.join(os.path.join(wxpy_file_path, message_type), msg.file_name))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\messages\message.py", line 136, in get_file
+    return _text(save_path)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\itchat\components\messages.py", line 36, in download_fn
+    with open(downloadDir, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\jarrod\\PycharmPorjects\\wechat\\saved_files\\Picture\\180527-233327.png'
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+OCR识别到了
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+OCR识别到了
+INFO:root:2018-05-27 23:40:07  小龙 : (Picture)  reply_message:OCR识别到了
+
+INFO:root:2018-05-27 23:40:07  小龙 : (Picture)  reply_message:OCR识别到了
+
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 143, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 108, in auto_save_file
+    os.mkdir(type_save_path)
+FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'D:\\jarrod\\PycharmPorjects\\wechat\\saved_files\\Picture'
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 143, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 111, in auto_save_file
+    values (str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name))''')
+sqlite3.OperationalError: no such column: message_id
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+语音已收到
+INFO:root:2018-05-27 23:48:54  小龙 : (Recording)  reply_message:语音已收到
+
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 143, in auto_reply
+    if msg.type in auto_save_type:
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 111, in auto_save_file
+    cursor.execute('''insert into saved_messages (message_id, message_time, message_type, message_sender, message_text, message_file_name)
+sqlite3.OperationalError: no such column: message_id
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 141, in auto_reply
+    if msg.type in auto_reply_type:
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 88, in auto_reply_messages
+    try:
+KeyError: 'verigy_content'
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 141, in auto_reply
+    if msg.type in auto_reply_type:
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 68, in auto_reply_messages
+    message = msg.text
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 47, in reply_or_not
+    if match_type:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 141, in auto_reply
+    if msg.type in auto_reply_type:
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 68, in auto_reply_messages
+    message = msg.text
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 47, in reply_or_not
+    if match_type:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020F7BBC8C80>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 143, in auto_reply
+    if msg.type in auto_save_type:
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 108, in auto_save_file
+    if type not in os.listdir(wxpy_file_path):
+FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'D:\\jarrod\\PycharmPorjects\\wechat\\saved_files\\Picture'
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001C67E657BF8>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 149, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 114, in auto_save_file
+    values (str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name))''')
+sqlite3.OperationalError: no such column: message_id
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000027160177D08>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 149, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 114, in auto_save_file
+    values (%s, %s, %s, %s, %s, %s)'''%(str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name)))
+sqlite3.OperationalError: near "00": syntax error
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000028DD9D57D90>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 148, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 113, in auto_save_file
+    cursor.execute('insert into saved_messages (message_id, message_time, message_type, message_sender, message_text, message_file_name)  values (%s, %s, %s, %s, %s, %s)'%(str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name)))
+sqlite3.OperationalError: near "00": syntax error
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001F758C47D08>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 148, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 113, in auto_save_file
+    cursor.execute('insert into saved_messages (message_id, message_time, message_type, message_sender, message_text, message_file_name) values (%s,%s,%s,%s,%s,%s)'%(str(message_id), str(message_time), str(message_type), str(message_sender), str(message_text), str(message_file_name)))
+sqlite3.OperationalError: near "00": syntax error
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001E84BC77D08>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 151, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 116, in auto_save_file
+    str(message_file_name)))
+sqlite3.OperationalError: near "<": syntax error
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000002AA6B957D08>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 151, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 116, in auto_save_file
+    str(message_file_name)))
+TypeError: not all arguments converted during string formatting
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x00000251F5577D90>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 151, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 116, in auto_save_file
+    message_file_name))
+TypeError: not all arguments converted during string formatting
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000018169F77D90>.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 151, in auto_reply
+    auto_save_file(msg)
+  File "D:/jarrod/PycharmPorjects/wechat/wechat.py", line 116, in auto_save_file
+    message_file_name))
+TypeError: 'str' object is not callable
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+OCR识别到了
+INFO:root:2018-05-28 00:30:56  小龙 : (Picture)  reply_message:OCR识别到了
+
+INFO:wxpy.api.bot:<Bot: 小龙龙>: stopped
