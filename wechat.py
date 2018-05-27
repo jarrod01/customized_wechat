@@ -6,8 +6,10 @@ logging.basicConfig(filename='logger.log', level=logging.INFO)
 
 # 创建文件夹
 user_path = os.path.expanduser("~")
-wxpy_file_path = os.path.join(user_path, 'wxpy_file_2')
-if "wxpy_file_2" not in os.listdir(user_path):
+abs_path = os.path.abspath('.')
+dir_name = 'saved_files'
+wxpy_file_path = os.path.join(abs_path,dir_name)
+if dir_name not in os.listdir(user_path):
     os.mkdir(wxpy_file_path)
 
 # 载入配置
@@ -77,7 +79,7 @@ def auto_save_file(msg):
     message_json = {'message_id': str(message_id), 'message_time':str(message_time),'message_type': str(message_type),
                     "message_sender": str(message_sender), 'message_text': message_text,
                     'message_file_name': str(message_file_name)}
-    saved_file.write(json.dumps(message_json))
+    saved_file.write(json.dumps(message_json, ensure_ascii=False))
     if message_type in ["Recording", "Picture", "Attachment", "Video"]:
         msg.get_file(save_path=os.path.join(wxpy_file_path, msg.file_name))
 
