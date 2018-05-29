@@ -1,8 +1,23 @@
 from wxpy import *
 from datetime import datetime
-import os, logging, json, sqlite3, baidu_text_recognize
+from logging.handlers import TimedRotatingFileHandler
+from random import randint
+import os, logging, json, sqlite3, baidu_text_recognize, time
 
-logging.basicConfig(filename='logger.log', level=logging.INFO)
+fh = TimedRotatingFileHandler('strategy_log', encoding='utf-8', when='d', interval=1, backupCount=7)
+fh2 = TimedRotatingFileHandler('wxpy_log', encoding='utf-8', when='d', interval=1, backupCount=7)
+fmt = '%(asctime)s\t%(name)s\t%(levelname)s:\t%(message)s'
+# datefmt = '%Y-%m-%d %H:%M:%S'
+formatter = logging.Formatter(fmt)
+fh.setFormatter(formatter)
+
+logging.basicConfig(handlers=[fh2], level=logging.INFO)
+
+logger_name = 'log'
+logger = logging.getLogger(logger_name)
+logger.setLevel(logging.INFO)
+logger.addHandler(fh)
+
 
 # 创建文件夹
 user_path = os.path.expanduser("~")
@@ -13,12 +28,20 @@ wxpy_file_path = os.path.join(file_save_path,dir_name)
 if dir_name not in os.listdir(file_save_path):
     os.mkdir(wxpy_file_path)
 
-# 载入配置
-with open(os.path.join(os.path.abspath('.'), "config.json"), encoding='utf-8') as f:
-    config = json.load(f)
-auto_reply_type = config['auto_reply_type']
-auto_save_type = config['auto_save_type']
-if auto_save_type:
+
+config = {}
+# 更新配置
+def re_load_config(config):
+    with open(os.path.join(os.path.abspath('.'), "config.json"), encoding='utf-8') as f:
+        new_config = json.load(f)
+    for key in new_config:
+        config[key] = new_config[key]
+    config['load_time'] = datetime.now()
+    return config
+re_load_config(config)
+
+#
+if config['auto_save_type']:
     # now = datetime.now().strftime("%Y%m%d%H%M%S")
     # saved_file = open(os.path.join(wxpy_file_path,'messages-'+now+'.txt'), 'w', encoding='utf-8')
     conn = sqlite3.connect(os.path.join(wxpy_file_path, 'data.db'), check_same_thread=False)
@@ -41,16 +64,19 @@ if auto_save_type:
 
 # 自动回复判断函数
 def reply_or_not(message, reply_config):
+    reply_messages = []
     keywords = reply_config.keys()
     for keyword in keywords:
         match_type = reply_config[keyword]["match_type"]
         if match_type:
             if keyword in message:
-                return reply_config[keyword]["messages"]
+                for reply_message in reply_config[keyword]["messages"]:
+                    reply_messages.append(reply_message)
         else:
             if keyword == message:
-                return reply_config[keyword]["messages"]
-    return []
+                for reply_message in reply_config[keyword]["messages"]:
+                    reply_messages.append(reply_message)
+    return reply_messages
 
 def auto_reply_messages(msg):
     config_key = 'auto_reply_' + msg.type.lower()
@@ -71,6 +97,8 @@ def auto_reply_messages(msg):
     reply_messages = reply_or_not(message, auto_reply_config)
     if reply_messages:
         def try_reply(user, message):
+            delay = randint(2,30)
+            time.sleep(delay)
             try:
                 if msg.member:
                     msg.reply('@' + msg.member.name + ' ' + message)
@@ -118,14 +146,14 @@ def auto_save_file(msg):
 
 
 def auto_reply_log(msg, reply_message):
-    now = datetime.now().strftime("%Y-%m-%d %X")
-    log_message = now + '  ' + str(msg) + '  reply_message:' + reply_message + '\n'
-    logging.info(log_message)
+    log_message = str(msg) + 'reply_message:' + reply_message + '\n'
+    print(myself.name + ':' + reply_message)
+    logger.info(log_message)
 
 def response_error_log(error):
-    now = datetime.now().strftime("%Y-%m-%d %X")
-    log_message = now + '  error:' + str(error) + '\n'
-    logging.error(log_message)
+    log_message = 'error:' + str(error) + '\n'
+    print(error)
+    logger.error(log_message)
 
 def log_out_response():
     cursor.close()
@@ -142,11 +170,16 @@ myself = bot.self
 @bot.register()
 def auto_reply(msg):
     print(msg)
-    if msg.type in auto_reply_type:
+    # 接受到消息后定时更新配置
+    now = datetime.now()
+    last_config_load_time = config['load_time']
+    if (now-last_config_load_time).seconds>2:
+        re_load_config(config)
+    if msg.type in config['auto_reply_type']:
         try:
             auto_reply_messages(msg)
         except:
             pass
-    if msg.type in auto_save_type:
+    if msg.type in config['auto_save_type']:
         auto_save_file(msg)
 bot.join()
