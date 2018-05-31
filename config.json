@@ -1,20 +1,16 @@
 {
-  "all_types": ["Text", "Recording", "Picture", "Attachment", "Video", "Sharing", "Friends",
-    "Map", "Card", "Note", "System"],
+  "all_types": ["Text", "Recording", "Picture", "Attachment", "Video", "Sharing", "Friends", "Map", "Card", "Note", "System"],
   "auto_reply_type": ["Text", "Recording", "Picture", "Attachment", "Video", "Friends", "Card", "Sharing"],
   "auto_save_type": ["Text", "Recording", "Picture", "Attachment", "Video"],
-  "auto_reply_friends": {"test": {"match_type": 1, "messages": ["tested"]}},
-  "auto_reply_text": {"test": {"match_type": 1, "messages": ["tested1"]},
-    "test0": {"match_type": 1, "messages": ["tested0"]}, "我通过了你的朋友验证请求": {"match_type": 1, "messages": ["text1"]}},
-  "auto_reply_picture": {"朋友圈": {"match_type": 1, "messages": ["OCR识别到了"]},
-    "": {"match_type": 1, "messages": ["图片已收到"]}},
-  "auto_reply_recording": {"": {"match_type": 1, "messages": ["语音已收到"]},
-    "语音测试": {"match_type": 1, "messages": ["语音识别了"]}},
+  "auto_reply_friends": {"test": {"match_type": 1, "messages": ["tested"]}, "remark_name":"训练营用户"},
+  "auto_reply_text": {"test": {"match_type": 1, "messages": ["tested1"]}, "picture": {"match_type": 1, "messages": ["picture:D:\\jarrod\\Desktop\\下载.jpg"]}, "我通过了你的朋友验证请求": {"match_type": 1, "messages": ["text1"]}},
+  "auto_reply_picture": {"朋友圈": {"match_type": 1, "messages": ["OCR识别到了"]}, "": {"match_type": 1, "messages": ["图片已收到"]}},
+  "auto_reply_recording": {"": {"match_type": 1, "messages": ["语音已收到"]}, "语音测试": {"match_type": 1, "messages": ["语音识别了"]}},
   "auto_reply_card": {"": {"match_type": 1, "messages": ["加好友请求发送成功"]}},
   "auto_reply_attachment": {"": {"match_type": 1, "messages": ["文件已收到"]}},
   "auto_reply_video":{"": {"match_type": 1, "messages": ["视频已收到"]}},
-  "auto_reply_sharing": {"肺炎": {"match_type": 1, "messages": ["肺炎怎么了？"]},
-    "": {"match_type": 1, "messages": ["谢谢分享"]}},
+  "auto_reply_sharing": {"肺炎": {"match_type": 1, "messages": ["肺炎怎么了？"]}, "": {"match_type": 1, "messages": ["谢谢分享"]}},
   "notify_friends": ["Jarrod01"],
-  "verify_content": "我是小龙，想加你好友聊聊天"
+  "verify_content": "我是小龙龙，想加你好友聊聊天",
+  "strategy_auto_update_time": 2
 }

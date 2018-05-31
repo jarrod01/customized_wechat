@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/wechat.py" line="105" />
+    <bookmark url="file://$PROJECT_DIR$/wechat.py" line="150" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0007105-7d85-48c7-abc0-ae8e8be44b37" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/Picture/180529-233148.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/Picture/180530-003118.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/Picture/180530-003205.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/Picture/180530-003232.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/QR_code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/wxpy_cache.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/wxpy_puid.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu_text_recognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidu_text_recognize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wechat.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,18 +18,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/wechat$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1527611992901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wechat$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1527781378096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wechat$py_test_in_test_log_py.coverage" NAME="py.test in test_log.py Coverage Results" MODIFIED="1527606815783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wechat$baidu_text_recognize.coverage" NAME="baidu_text_recognize Coverage Results" MODIFIED="1527780135153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wechat$py_test_for_test_log_test_log.coverage" NAME="py.test for test_log.test_log Coverage Results" MODIFIED="1527605128606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/customized_wechat$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1527396845924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="wechat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wechat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="-1202">
+              <caret line="132" column="42" lean-forward="true" selection-start-line="131" selection-start-column="63" selection-end-line="132" selection-end-column="42" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -50,8 +41,8 @@
       <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="266">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -59,8 +50,8 @@
       <file leaf-file-name="baidu_text_recognize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baidu_text_recognize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="912">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -95,6 +86,7 @@
       <find>logging</find>
       <find>log</find>
       <find>log_</find>
+      <find>veri</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;match_type&quot;</replace>
@@ -110,9 +102,9 @@
         <option value="$PROJECT_DIR$/logger.log" />
         <option value="$PROJECT_DIR$/baidu_ocr.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/baidu_text_recognize.py" />
         <option value="$PROJECT_DIR$/test_log.log" />
         <option value="$PROJECT_DIR$/test_log.py" />
+        <option value="$PROJECT_DIR$/baidu_text_recognize.py" />
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/wechat.py" />
       </list>
@@ -128,10 +120,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="997" />
-    <option name="y" value="166" />
+    <option name="x" value="1240" />
+    <option name="y" value="164" />
     <option name="width" value="1198" />
-    <option name="height" value="1115" />
+    <option name="height" value="1116" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,6 +166,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.wechat">
+    <configuration name="baidu_text_recognize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="wechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baidu_text_recognize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="wechat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="wechat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,10 +238,12 @@
       <item itemvalue="Python.wechat" />
       <item itemvalue="Python tests.py.test for test_log.test_log" />
       <item itemvalue="Python tests.py.test in test_log.py" />
+      <item itemvalue="Python.baidu_text_recognize" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.wechat" />
+        <item itemvalue="Python.baidu_text_recognize" />
         <item itemvalue="Python tests.py.test in test_log.py" />
         <item itemvalue="Python tests.py.test for test_log.test_log" />
       </list>
@@ -247,6 +260,14 @@
       <option name="presentableId" value="Default" />
       <updated>1519738290200</updated>
     </task>
+    <task id="LOCAL-00001" summary="修改logging&#10;增加运行中定时载入配置&#10;增加输出配置">
+      <created>1527612913899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527612913899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -282,29 +303,29 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="997" y="166" width="1198" height="1115" extended-state="0" />
+    <frame x="1240" y="164" width="1198" height="1116" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32925585" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3268839" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32655138" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32925585" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18189807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18892795" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39918533" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39877924" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,126 +334,113 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改logging&#10;增加运行中定时载入配置&#10;增加输出配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改logging&#10;增加运行中定时载入配置&#10;增加输出配置" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>86</line>
+          <line>105</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>88</line>
+          <line>107</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>89</line>
+          <line>108</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>91</line>
+          <line>110</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>96</line>
+          <line>115</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>69</line>
+          <line>86</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>144</line>
+          <line>198</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>84</line>
+          <line>103</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>103</line>
+          <line>148</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>105</line>
+          <line>150</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>113</line>
+          <line>167</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>118</line>
+          <line>172</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>122</line>
+          <line>176</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>136</line>
+          <line>190</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>138</line>
+          <line>192</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>139</line>
+          <line>193</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>140</line>
+          <line>194</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>174</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>176</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>77</line>
+          <line>96</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wechat.py</url>
-          <line>73</line>
+          <line>91</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="87" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tips.txt" />
     <entry file="file://$PROJECT_DIR$/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -596,68 +604,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logger.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="591">
-          <caret line="323" column="80" lean-forward="true" selection-start-line="323" selection-start-column="80" selection-end-line="323" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logger.log" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-46-33">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.log.2018-05-29_22-45-35">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-46-44">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-54-12">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-53-10">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-53-54">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-50-52">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-50-28">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-57-24">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-57-26">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-59-10">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-04-53">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-03-43">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-10-23">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-12-29">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-46-33" />
+    <entry file="file://$PROJECT_DIR$/test_log.log.2018-05-29_22-45-35" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-46-44" />
+    <entry file="file://$PROJECT_DIR$/test_log.log" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-54-12" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-53-10" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-53-54" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-50-52" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-50-28" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-57-24" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-57-26" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_22-59-10" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-04-53" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-03-43" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-10-23" />
+    <entry file="file://$PROJECT_DIR$/test_log.2018-05-29_23-12-29" />
     <entry file="file://$PROJECT_DIR$/test_log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -665,40 +631,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_log" />
     <entry file="file://$PROJECT_DIR$/baidu_text_recognize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="912">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/itchat/components/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4084">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wxpy_log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategy_log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313" />
+        <state relative-caret-position="-336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxpy_log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-1202">
+          <caret line="132" column="42" lean-forward="true" selection-start-line="131" selection-start-column="63" selection-end-line="132" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

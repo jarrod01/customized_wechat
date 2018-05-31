@@ -43,3 +43,8 @@ def do_sr(file_path):
     audio = get_file_content(file_path)
     result = sr_client.asr(audio, 'pcm', 16000, {'dev_id':1536})
     return result
+
+if __name__ == '__main__':
+    # result = do_ocr_file('D:\jarrod\Desktop\下载.jpg')
+    result = do_sr('D:\\jarrod\\Desktop\\bai.wav')
+    print(result)
