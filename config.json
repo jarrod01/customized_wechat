@@ -12,5 +12,6 @@
   "auto_reply_sharing": {"肺炎": {"match_type": 1, "messages": ["肺炎怎么了？"]}, "": {"match_type": 1, "messages": ["谢谢分享"]}},
   "notify_friends": ["Jarrod01"],
   "verify_content": "我是小龙龙，想加你好友聊聊天",
-  "strategy_auto_update_time": 2
+  "strategy_auto_update_time": 2,
+  "tuling_bot": 1
 }

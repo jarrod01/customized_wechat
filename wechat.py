@@ -104,11 +104,11 @@ def auto_reply_messages(msg):
         message = ''
     elif msg.type == "Picture":
         message = ''
-        # temp_file_path = os.path.join(os.path.join(wxpy_file_path, 'temp'), msg.file_name)
-        ocr_result = baidu_text_recognize.do_ocr(msg.get_file())
-        if ocr_result:
-            if ocr_result['words_result_num']:
-                message = ','.join([word['words'] for word in ocr_result['words_result']])
+        if baidu_text_recognize.api_key:
+            ocr_result = baidu_text_recognize.do_ocr(msg.get_file())
+            if ocr_result:
+                if ocr_result['words_result_num']:
+                    message = ','.join([word['words'] for word in ocr_result['words_result']])
     elif msg.type == 'Video':
         message = ''
     else:
@@ -121,37 +121,38 @@ def auto_reply_messages(msg):
         def try_reply(user, message):
             delay = randint(2,10)
             time.sleep(delay)
-            if message[:8] == 'picture:':
-                image_path = message[8:]
-                try:
-                    if msg.member:
-                        msg.reply('@' + msg.member.name + ' ')
-                        msg.reply_image(image_path)
-                    else:
-                        user.send_image(image_path)
-                    auto_reply_log(msg, '已发送图片，路径：'+image_path)
-                except ResponseError as e:
-                    response_error_log(e)
-            elif message[:5] == 'file:':
-                image_path = message[5:]
-                try:
-                    if msg.member:
-                        msg.reply('@' + msg.member.name + ' ')
-                        msg.reply_file(image_path)
-                    else:
-                        user.send_file(image_path)
-                    auto_reply_log(msg, '已发送文件，路径：'+image_path)
-                except ResponseError as e:
-                    response_error_log(e)
-            else:
-                try:
-                    if msg.member:
-                        msg.reply('@' + msg.member.name + ' ' + message)
-                    else:
-                        user.send(message)
-                    auto_reply_log(msg, reply_message)
-                except ResponseError as e:
-                    response_error_log(e)
+            # 自动回复图片的代码，因为总是回复不成功，暂时去掉这个逻辑
+            # if message[:8] == 'picture:':
+            #     image_path = message[8:]
+            #     try:
+            #         if msg.member:
+            #             msg.reply('@' + msg.member.name + ' ')
+            #             msg.reply_image(image_path)
+            #         else:
+            #             user.send_image(image_path)
+            #         auto_reply_log(msg, '已发送图片，路径：'+image_path)
+            #     except ResponseError as e:
+            #         response_error_log(e)
+            # elif message[:5] == 'file:':
+            #     image_path = message[5:]
+            #     try:
+            #         if msg.member:
+            #             msg.reply('@' + msg.member.name + ' ')
+            #             msg.reply_file(image_path)
+            #         else:
+            #             user.send_file(image_path)
+            #         auto_reply_log(msg, '已发送文件，路径：'+image_path)
+            #     except ResponseError as e:
+            #         response_error_log(e)
+            # else:
+            try:
+                if msg.member:
+                    msg.reply('@' + msg.member.name + ' ' + message)
+                else:
+                    user.send(message)
+                auto_reply_log(msg, reply_message)
+            except ResponseError as e:
+                response_error_log(e)
         for reply_message in reply_messages:
             if msg.type == 'Friends':
                 try:
@@ -175,6 +176,14 @@ def auto_reply_messages(msg):
                     response_error_log(e)
             else:
                 try_reply(msg.sender, reply_message)
+    elif config['tuling_bot']:
+        config['latest_response_time'] = datetime.now()
+        try:
+            tuling_api_key = baidu_text_recognize.api_key['TULING_API_KEY']
+            tuling = Tuling(api_key=tuling_api_key)
+            print(myself.name + '： ' + tuling.do_reply(msg))
+        except:
+            pass
 
 def auto_save_file(msg):
     message_type = msg.type
@@ -200,11 +209,10 @@ def auto_save_file(msg):
 
 def send_to_file_helper_repeatedly():
     now = datetime.now()
-    if (now-config['latest_response_time']).seconds>=1800:
-        return
-    bot.file_helper.send("I'm still here, haha!")
-    config['latest_response_time'] = now
-    t = Timer(1800, send_to_file_helper_repeatedly)
+    if (now-config['latest_response_time']).seconds>=60:
+        bot.file_helper.send("I'm still here, haha!")
+        config['latest_response_time'] = now
+    t = Timer(60, send_to_file_helper_repeatedly)
     t.start()
 
 def log_out_response():

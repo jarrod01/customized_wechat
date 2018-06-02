@@ -1,0 +1,59 @@
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+一直在这呢。
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+picture:D:\jarrod\Desktop\下载.jpg
+INFO:log:小龙 : picture (Text)reply_message:picture:D:\jarrod\Desktop\下载.jpg
+
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+视频已收到
+INFO:log:小龙 : (Video)reply_message:视频已收到
+
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+图片已收到
+INFO:log:小龙 : (Picture)reply_message:图片已收到
+
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!
+INFO:wxpy.api.bot:<Bot: 小龙龙>: stopped
+INFO:wxpy.api.chats.chat:sending msg to <Chat: 文件传输助手>:
+I'm still here, haha!

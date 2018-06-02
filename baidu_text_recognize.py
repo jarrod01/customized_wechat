@@ -1,14 +1,19 @@
 from aip import *
 import json, os, subprocess
 
-baidu_key_file = 'D:\\jarrod\\Desktop\\baiduapi.json'
-with open(baidu_key_file, encoding='utf-8') as f:
-    baidu_api_key = json.load(f)
-    APP_ID = baidu_api_key['APP_ID']
-    API_KEY = baidu_api_key['API_KEY']
-    SECRET_KEY = baidu_api_key['SECRET_KEY']
-ocr_client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
-sr_client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
+user_path = os.path.expanduser("~")
+api_key_file = os.path.join(user_path, 'api_key.json')
+try:
+    with open(api_key_file, encoding='utf-8') as f:
+        api_key = json.load(f)
+        APP_ID = api_key['BAIDU_APP_ID']
+        API_KEY = api_key['BAIDU_API_KEY']
+        SECRET_KEY = api_key['BAIDU_SECRET_KEY']
+        ocr_client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
+        sr_client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
+except FileNotFoundError:
+    print('api_key_file not found!')
+    api_key = {}
 
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
