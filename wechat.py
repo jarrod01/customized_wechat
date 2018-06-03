@@ -177,13 +177,16 @@ def auto_reply_messages(msg):
             else:
                 try_reply(msg.sender, reply_message)
     elif config['tuling_bot']:
-        config['latest_response_time'] = datetime.now()
-        try:
-            tuling_api_key = baidu_text_recognize.api_key['TULING_API_KEY']
-            tuling = Tuling(api_key=tuling_api_key)
-            print(myself.name + '： ' + tuling.do_reply(msg))
-        except:
-            pass
+        if baidu_text_recognize.api_key:
+            config['latest_response_time'] = datetime.now()
+            delay = randint(2, 10)
+            time.sleep(delay)
+            try:
+                tuling_api_key = baidu_text_recognize.api_key['TULING_API_KEY']
+                tuling = Tuling(api_key=tuling_api_key)
+                print(myself.name + '： ' + tuling.do_reply(msg))
+            except:
+                pass
 
 def auto_save_file(msg):
     message_type = msg.type
