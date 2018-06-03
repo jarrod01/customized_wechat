@@ -209,10 +209,12 @@ def auto_save_file(msg):
 
 def send_to_file_helper_repeatedly():
     now = datetime.now()
-    if (now-config['latest_response_time']).seconds>=60:
+    if (now-config['latest_response_time']).seconds>=1800:
         bot.file_helper.send("I'm still here, haha!")
         config['latest_response_time'] = now
-    t = Timer(60, send_to_file_helper_repeatedly)
+    # 顺便更新一下配置文件
+    load_config()
+    t = Timer(1800, send_to_file_helper_repeatedly)
     t.start()
 
 def log_out_response():
@@ -233,9 +235,9 @@ send_to_file_helper_repeatedly()
 def auto_reply(msg):
     print(msg)
     # 接受到消息后定时更新配置
-    now = datetime.now()
-    if (now - config['load_time']).seconds > config["strategy_auto_update_time"]:
-        load_config()
+    # now = datetime.now()
+    # if (now - config['load_time']).seconds > config["strategy_auto_update_time"]:
+    #     load_config()
     if msg.type in config['auto_reply_type']:
         try:
             auto_reply_messages(msg)

@@ -1,6 +1,6 @@
 {
   "all_types": ["Text", "Recording", "Picture", "Attachment", "Video", "Sharing", "Friends", "Map", "Card", "Note", "System"],
-  "auto_reply_type": ["Text", "Recording", "Picture", "Attachment", "Video", "Friends", "Card", "Sharing"],
+  "auto_reply_type": ["Text", "Recording", "Picture", "Attachment", "Friends", "Card"],
   "auto_save_type": ["Text", "Recording", "Picture", "Attachment", "Video"],
   "auto_reply_friends": {"test": {"match_type": 1, "messages": ["tested"]}, "remark_name":"训练营用户"},
   "auto_reply_text": {"test": {"match_type": 1, "messages": ["tested1"]}, "picture": {"match_type": 1, "messages": ["picture:D:\\jarrod\\Desktop\\下载.jpg"]}, "我通过了你的朋友验证请求": {"match_type": 1, "messages": ["text1"]}},
@@ -12,6 +12,6 @@
   "auto_reply_sharing": {"肺炎": {"match_type": 1, "messages": ["肺炎怎么了？"]}, "": {"match_type": 1, "messages": ["谢谢分享"]}},
   "notify_friends": ["Jarrod01"],
   "verify_content": "我是小龙龙，想加你好友聊聊天",
-  "strategy_auto_update_time": 2,
+  "strategy_auto_update_time": 1800,
   "tuling_bot": 1
 }
