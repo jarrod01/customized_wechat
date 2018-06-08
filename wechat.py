@@ -87,9 +87,11 @@ def reply_strategy(message, reply_config):
         match_type = reply_config[keyword]["match_type"]
         if match_type:
             if keyword in message:
+                print("keyword" + keyword)
                 matched_keywords.append(keyword)
                 for reply_message in reply_config[keyword]["messages"]:
                     reply_messages.append(reply_message)
+                print(reply_messages)
         else:
             if keyword == message:
                 matched_keywords.append(keyword)
@@ -97,54 +99,35 @@ def reply_strategy(message, reply_config):
                     reply_messages.append(reply_message)
     return {'reply_messages': reply_messages, 'matched_keywords': matched_keywords}
 
+def do_ocr(msg):
+    if baidu_text_recognize.api_key:
+        ocr_result = baidu_text_recognize.do_ocr(msg.get_file())
+        if ocr_result:
+            if ocr_result['words_result_num']:
+                message = ','.join([word['words'] for word in ocr_result['words_result']])
+                return message
+    return ""
+
 def auto_reply_messages(msg):
     config_key = 'auto_reply_' + msg.type.lower()
     auto_reply_config = config[config_key]
     if msg.type == "Recording":
         message = ''
     elif msg.type == "Picture":
-        message = ''
-        if baidu_text_recognize.api_key:
-            ocr_result = baidu_text_recognize.do_ocr(msg.get_file())
-            if ocr_result:
-                if ocr_result['words_result_num']:
-                    message = ','.join([word['words'] for word in ocr_result['words_result']])
+        message = do_ocr(msg)
     elif msg.type == 'Video':
         message = ''
     else:
         message = msg.text
     strategy_result = reply_strategy(message, auto_reply_config)
     reply_messages = strategy_result['reply_messages']
+    print("124strategy_result\n" + strategy_result)
     if reply_messages:
         config['latest_response_time'] = datetime.now()
         # 回复消息函数
         def try_reply(user, message):
-            delay = randint(2,10)
-            time.sleep(delay)
-            # 自动回复图片的代码，因为总是回复不成功，暂时去掉这个逻辑
-            # if message[:8] == 'picture:':
-            #     image_path = message[8:]
-            #     try:
-            #         if msg.member:
-            #             msg.reply('@' + msg.member.name + ' ')
-            #             msg.reply_image(image_path)
-            #         else:
-            #             user.send_image(image_path)
-            #         auto_reply_log(msg, '已发送图片，路径：'+image_path)
-            #     except ResponseError as e:
-            #         response_error_log(e)
-            # elif message[:5] == 'file:':
-            #     image_path = message[5:]
-            #     try:
-            #         if msg.member:
-            #             msg.reply('@' + msg.member.name + ' ')
-            #             msg.reply_file(image_path)
-            #         else:
-            #             user.send_file(image_path)
-            #         auto_reply_log(msg, '已发送文件，路径：'+image_path)
-            #     except ResponseError as e:
-            #         response_error_log(e)
-            # else:
+            # delay = randint(2,10)
+            # time.sleep(delay)
             try:
                 if msg.member:
                     msg.reply('@' + msg.member.name + ' ' + message)
@@ -153,6 +136,7 @@ def auto_reply_messages(msg):
                 auto_reply_log(msg, reply_message)
             except ResponseError as e:
                 response_error_log(e)
+        print(msg)
         for reply_message in reply_messages:
             if msg.type == 'Friends':
                 try:
@@ -162,7 +146,12 @@ def auto_reply_messages(msg):
                         matched_keyword = strategy_result['matched_keywords'][0]
                         try:
                             remark_name = config['auto_reply_friends'][matched_keyword]['remark_name']
-                            new_friend.set_remark_name(remark_name)
+                            remark_name_friends = bot.search(remark_name)
+                            if remark_name_friends:
+                                new_remark_name = remark_name + len(remark_name_friends)
+                            else:
+                                new_remark_name = remark_name
+                            new_friend.set_remark_name(new_remark_name)
                             auto_reply_log(msg, '设置备注名为：'+remark_name)
                         except KeyError:
                             pass
@@ -174,6 +163,28 @@ def auto_reply_messages(msg):
                     bot.add_friend(msg.card.user_name, verify_content=config['verigy_content'])
                 except ResponseError as e:
                     response_error_log(e)
+            elif msg.type == 'Note':
+                print(strategy_result)
+                if strategy_result['matched_keywords']:
+                    matched_keyword = strategy_result['matched_keywords'][0]
+                    print("matched_keyword\n" + matched_keyword)
+                    try:
+                        remark_name = config['auto_reply_friends'][matched_keyword]['remark_name']
+                        remark_name_friends = bot.search(remark_name)
+                        if remark_name_friends:
+                            new_remark_name = remark_name + len(remark_name_friends)
+                        else:
+                            new_remark_name = remark_name
+                        print('remark_name: ' + new_remark_name)
+                        msg.sender.set_remark_name(new_remark_name)
+                        print('设置备注名成功')
+                        auto_reply_log(msg, '设置备注名为：' + remark_name)
+                    except KeyError:
+                        print('备注名设置有问题')
+                    except ResponseError:
+                        print('自动设置备注失败')
+
+                    try_reply(msg.sender, reply_message)
             else:
                 try_reply(msg.sender, reply_message)
     elif config['tuling_bot']:
@@ -210,6 +221,18 @@ def auto_save_file(msg):
         message_file_name))
     conn.commit()
 
+# 自动加群，还没写完，经常加群失败，尤其是40人以上的群，还未找到原因
+def auto_add_group(msg):
+    auto_reply_config = config["auto_add_group"]
+    if msg.type == 'Picture':
+        message = do_ocr(msg)
+    else:
+        message = msg.text
+    strategy_result = reply_strategy(message, auto_reply_config)
+    group_name = strategy_result['reply_messages'][0]
+    group_search_result = bot.groups().search(group_name)
+
+
 def send_to_file_helper_repeatedly():
     now = datetime.now()
     if (now-config['latest_response_time']).seconds>=1800:
@@ -242,10 +265,10 @@ def auto_reply(msg):
     # if (now - config['load_time']).seconds > config["strategy_auto_update_time"]:
     #     load_config()
     if msg.type in config['auto_reply_type']:
-        try:
-            auto_reply_messages(msg)
-        except:
-            pass
+        auto_reply_messages(msg)
     if msg.type in config['auto_save_type']:
         auto_save_file(msg)
+    # if config["auto_add_group"] and msg.type == 'Picture':
+    #    auto_add_group(msg)
+
 bot.join()

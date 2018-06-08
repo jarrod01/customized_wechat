@@ -1,17 +1,19 @@
 {
   "all_types": ["Text", "Recording", "Picture", "Attachment", "Video", "Sharing", "Friends", "Map", "Card", "Note", "System"],
-  "auto_reply_type": ["Text", "Recording", "Picture", "Attachment", "Friends", "Card"],
-  "auto_save_type": ["Text", "Recording", "Picture", "Attachment", "Video"],
-  "auto_reply_friends": {"test": {"match_type": 1, "messages": ["tested"]}, "remark_name":"训练营用户"},
+  "auto_reply_type": ["Picture","Note"],
+  "auto_save_type": ["Picture", "Text"],
+  "auto_reply_friends": {"": {"match_type": 1, "messages": ["很高兴在这里与老师相遇，为了让更多的老师们收听到课程，需要老师将以下海报分享朋友圈或计免微信群，并配上文字：家长沟通技巧终于开课了，接种医生们备好板凳准备听课吧"]}, "remark_name":"家长沟通"},
   "auto_reply_text": {"test": {"match_type": 1, "messages": ["tested1"]}, "picture": {"match_type": 1, "messages": ["picture:D:\\jarrod\\Desktop\\下载.jpg"]}, "我通过了你的朋友验证请求": {"match_type": 1, "messages": ["text1"]}},
-  "auto_reply_picture": {"朋友圈": {"match_type": 1, "messages": ["OCR识别到了"]}, "": {"match_type": 1, "messages": ["图片已收到"]}},
+  "auto_reply_picture": {"接种": {"match_type": 1, "messages": ["感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦", "家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA", "我们在开课前会统一邀请您入群，并同步课程链接给你哦"]}},
   "auto_reply_recording": {"": {"match_type": 1, "messages": ["语音已收到"]}, "语音测试": {"match_type": 1, "messages": ["语音识别了"]}},
   "auto_reply_card": {"": {"match_type": 1, "messages": ["加好友请求发送成功"]}},
   "auto_reply_attachment": {"": {"match_type": 1, "messages": ["文件已收到"]}},
   "auto_reply_video":{"": {"match_type": 1, "messages": ["视频已收到"]}},
   "auto_reply_sharing": {"肺炎": {"match_type": 1, "messages": ["肺炎怎么了？"]}, "": {"match_type": 1, "messages": ["谢谢分享"]}},
+  "auto_reply_note": {"刚刚把你添加到通讯录，现在可以开始聊天了": {"match_type": 1, "messages": ["很高兴在这里与老师相遇，为了让更多的老师们收听到课程，需要老师将以下海报分享朋友圈或计免微信群，并配上文字：家长沟通技巧终于开课了，接种医生们备好板凳准备听课吧"]}, "remark_name":"家长沟通"},
+  "auto_add_group": {"肺炎": {"match_type": 1, "messages": ["肺炎怎么了？"]}},
   "notify_friends": ["Jarrod01"],
   "verify_content": "我是小龙龙，想加你好友聊聊天",
   "strategy_auto_update_time": 1800,
-  "tuling_bot": 1
+  "tuling_bot": 0
 }

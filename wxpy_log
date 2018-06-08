@@ -1,0 +1,334 @@
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.chats.group:updating <Group: 小编编> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 免疫规划各方谈> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗育儿群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 佛山禅城区小豆苗工作群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗首批产品体验师> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: YS项目: £¥~辰悦歆倩殿~¥£> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家讨论群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说医生1群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗东莞交流群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: None> (members_details=False)
+INFO:wxpy.api.chats.chat:sending msg to <Group: 小编编>:
+@mickey~ 感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦
+INFO:log:小编编 › mickey~ : (Picture)reply_message:感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦
+
+INFO:wxpy.api.chats.chat:sending msg to <Group: 小编编>:
+@mickey~ 家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA
+INFO:log:小编编 › mickey~ : (Picture)reply_message:家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA
+
+INFO:wxpy.api.chats.chat:sending msg to <Group: 小编编>:
+@mickey~ 我们在开课前会统一邀请您入群，并同步课程链接给你哦
+INFO:log:小编编 › mickey~ : (Picture)reply_message:我们在开课前会统一邀请您入群，并同步课程链接给你哦
+
+INFO:wxpy.api.bot:<Bot: 专家说小编>: stopped
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.chats.group:updating <Group: 专家说核心用户群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小编编> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 免疫规划各方谈> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 供应预防接种服务> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗育儿群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 佛山禅城区小豆苗工作群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗首批产品体验师> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: YS项目: £¥~辰悦歆倩殿~¥£> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家讨论群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说医生1群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗东莞交流群> (members_details=False)
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.chats.group:updating <Group: 专家说微课堂> (members_details=False)
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.chats.group:updating <Group: 专家说核心用户群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小编编> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 免疫规划各方谈> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 供应预防接种服务> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗育儿群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 佛山禅城区小豆苗工作群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗首批产品体验师> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: YS项目: £¥~辰悦歆倩殿~¥£> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家讨论群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说医生1群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗东莞交流群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: None> (members_details=False)
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.chats.group:updating <Group: 专家说核心用户群> (members_details=False)
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.chats.group:updating <Group: 小编编> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 免疫规划各方谈> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 供应预防接种服务> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗育儿群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 佛山禅城区小豆苗工作群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗首批产品体验师> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: YS项目: £¥~辰悦歆倩殿~¥£> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家讨论群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说医生1群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗东莞交流群> (members_details=False)
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.chats.group:updating <Group: 专家说核心用户群> (members_details=False)
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.chats.group:updating <Group: 小编编> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 免疫规划各方谈> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 供应预防接种服务> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗育儿群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 佛山禅城区小豆苗工作群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗首批产品体验师> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: YS项目: £¥~辰悦歆倩殿~¥£> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家讨论群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说医生1群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗东莞交流群> (members_details=False)
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x00000210DEF0AA60>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 284, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 120, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x00000227CFF408C8>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "wechat.py", line 284, in auto_reply
+    auto_reply_messages(msg)
+  File "wechat.py", line 120, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦
+INFO:log:小龙 : (Picture)reply_message:感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦
+
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA
+INFO:log:小龙 : (Picture)reply_message:家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA
+
+INFO:wxpy.api.chats.chat:sending msg to <Friend: 小龙>:
+我们在开课前会统一邀请您入群，并同步课程链接给你哦
+INFO:log:小龙 : (Picture)reply_message:我们在开课前会统一邀请您入群，并同步课程链接给你哦
+
+INFO:wxpy.api.bot:<Bot: 专家说小编>: stopped
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.bot:<Bot: 专家说小编>: started
+INFO:wxpy.api.chats.group:updating <Group: 供应预防接种服务> (members_details=False)
+INFO:wxpy.api.messages.message_config:<MessageConfig: 专家说小编: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 专家说小编>: joined
+INFO:wxpy.api.chats.group:updating <Group: 专家说核心用户群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗育儿群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 佛山禅城区小豆苗工作群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗首批产品体验师> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: YS项目: £¥~辰悦歆倩殿~¥£> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家讨论群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说医生1群> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小豆苗东莞交流群> (members_details=False)
+INFO:wxpy.api.bot:<Bot: 专家说小编>: stopped
+INFO:wxpy.api.bot:<Bot: 专家说小编>: stopped
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: None>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: None: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: None>: joined
+INFO:wxpy.api.bot:<Bot: None>: stopped
+INFO:wxpy.api.bot:<Bot: None>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: None: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: None>: joined
+INFO:itchat:Getting uuid of QR code.
+INFO:itchat:Downloading QR code.
+INFO:itchat:Please scan the QR code to log in.
+INFO:itchat:Please press confirm on your phone.
+INFO:itchat:Loading the contact, this may take a little while.
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.chat:sending msg to <Chat: None>:
+感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦
+INFO:log:None : (Picture)reply_message:感谢老师的分享，将有更多的医生通过您的分享收听到课程啦，以下资料请收好了哦
+
+INFO:wxpy.api.chats.chat:sending msg to <Chat: None>:
+家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA
+INFO:log:None : (Picture)reply_message:家长沟通技巧课程资料：地址：https://pan.baidu.com/s/1hkM4omunp0Y5dSWtOU-RSA
+
+INFO:wxpy.api.chats.chat:sending msg to <Chat: None>:
+我们在开课前会统一邀请您入群，并同步课程链接给你哦
+INFO:log:None : (Picture)reply_message:我们在开课前会统一邀请您入群，并同步课程链接给你哦
+
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000020E0AD6AEA0>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 260, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 120, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001DFA004BEA0>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 261, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 121, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000029BEBA0BEA0>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 262, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 122, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:wxpy.api.chats.group:updating <Group: 郭骏尧> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 开小灶> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说项目组> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小龙龙> (members_details=False)
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.chats.group:updating <Group: 郭骏尧> (members_details=False)
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+INFO:wxpy.api.chats.group:updating <Group: 开小灶> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 专家说项目组> (members_details=False)
+INFO:wxpy.api.chats.group:updating <Group: 小龙龙> (members_details=False)
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000024F075207B8>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 265, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 122, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000018DB0BFCEA0>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 266, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 122, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000021D531ACEA0>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 268, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 122, in auto_reply_messages
+    strategy_result = reply_strategy(message, auto_reply_config)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 87, in reply_strategy
+    match_type = reply_config[keyword]["match_type"]
+TypeError: string indices must be integers
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000021D531ACEA0>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 268, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 124, in auto_reply_messages
+    print("124strategy_result\n" + strategy_result)
+TypeError: must be str, not dict
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x0000027085AE9C80>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 268, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 124, in auto_reply_messages
+    print("124strategy_result\n" + strategy_result)
+TypeError: must be str, not dict
+INFO:wxpy.api.bot:<Bot: 小龙龙>: started
+INFO:wxpy.api.messages.message_config:<MessageConfig: 小龙龙: auto_reply (Enabled, Async)>
+INFO:wxpy.api.bot:<Bot: 小龙龙>: joined
+ERROR:wxpy.api.bot:an error occurred in <function auto_reply at 0x000001C6E58C8378>.
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\lib\site-packages\wxpy\api\bot.py", line 453, in process
+    ret = config.func(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 268, in auto_reply
+    auto_reply_messages(msg)
+  File "C:/Users/guohongbin/PycharmProjects/customized_wechat/wechat.py", line 124, in auto_reply_messages
+    print("124strategy_result\n" + strategy_result)
+TypeError: must be str, not dict
